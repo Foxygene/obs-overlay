@@ -3,11 +3,11 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-deploy:
-    name: main - Build and deploy
+    name: master - Build and deploy
     runs-on: ubuntu-latest
     permissions:
       contents: write
