@@ -1,30 +1,7 @@
-import { useEffect, useState } from "react";
-import "./App.css";
+import Tape from "./components/Tape";
 
 function App() {
-  const [date, setDate] = useState(new Date());
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setDate(new Date());
-    }, 1000 * 60);
-
-    return () => clearInterval(interval);
-  }, [date, setDate]);
-
-  const dateString = date.toLocaleString("en-US", {
-    timeZone: "CET",
-    weekday: "short",
-    hour: "2-digit",
-    minute: "2-digit",
-  });
-
-  return (
-    <div className="flex space-between">
-      <div>CH 13</div>
-      <div>{dateString}</div>
-    </div>
-  );
+  return <Tape />;
 }
 
 export default App;
