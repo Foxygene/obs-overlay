@@ -10,7 +10,7 @@ export const router = createBrowserRouter(
       element: <App />,
     },
     {
-      path: "/tape",
+      path: "tape",
       element: <Tape />,
     },
     {
