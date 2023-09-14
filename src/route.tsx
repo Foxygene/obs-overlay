@@ -5,15 +5,15 @@ import App from "./App";
 
 export const router = createBrowserRouter([
   {
-    path: "./",
+    path: "",
     element: <App />,
   },
   {
-    path: "./tape",
+    path: "tape",
     element: <Tape />,
   },
   {
-    path: "./chat",
+    path: "chat",
     element: <Chat />,
   },
 ]);
