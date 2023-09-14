@@ -10,10 +10,6 @@ type Message = {
 
 const client = new tmi.Client({
   channels: ["Foxygene_Ow"],
-  identity: {
-    username: "Foxygene_Ow",
-    password: `oauth:${import.meta.env.VITE_TWITCH_TOKEN}`,
-  },
 });
 
 client.connect();

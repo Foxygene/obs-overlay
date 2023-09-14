@@ -1,7 +1,7 @@
-import Tape from "./components/Tape";
+import Chat from "./components/Chat";
 
 function App() {
-  return <Tape />;
+  return <Chat />;
 }
 
 export default App;
