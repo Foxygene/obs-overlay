@@ -1,15 +1,16 @@
+import { Link } from "react-router-dom";
 import "./app.css";
 
 function App() {
   return (
     <>
       <h1>obs-overlay</h1>
-      <a className="fp-link" href="/tape">
+      <Link className="fp-link" to="/tape">
         tape-effect
-      </a>
-      <a className="fp-link" href="/chat">
+      </Link>
+      <Link className="fp-link" to="/chat">
         chat
-      </a>
+      </Link>
     </>
   );
 }
