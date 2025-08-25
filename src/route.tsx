@@ -3,7 +3,6 @@ import { createHashRouter } from "react-router-dom";
 import Chat from "./pages/Chat";
 import Tape from "./pages/Tape";
 import StartingSoon from "./pages/StartingSoon";
-import SubCounter from "./pages/SubCounter";
 import BRB from "./pages/BRB";
 import App from "./App";
 
