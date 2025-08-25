@@ -11,6 +11,15 @@ function App() {
       <Link className="fp-link" to="/chat">
         chat
       </Link>
+      <Link className="fp-link" to="/starting-soon">
+        starting soon
+      </Link>
+      <Link className="fp-link" to="/subcounter">
+        sub counter
+      </Link>
+      <Link className="fp-link" to="/brb">
+        brb
+      </Link>
     </>
   );
 }

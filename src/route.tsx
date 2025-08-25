@@ -1,6 +1,10 @@
 import { createHashRouter } from "react-router-dom";
+
 import Chat from "./pages/Chat";
 import Tape from "./pages/Tape";
+import StartingSoon from "./pages/StartingSoon";
+import SubCounter from "./pages/SubCounter";
+import BRB from "./pages/BRB";
 import App from "./App";
 
 export const router = createHashRouter([
@@ -15,5 +19,17 @@ export const router = createHashRouter([
   {
     path: "chat",
     element: <Chat />,
+  },
+  {
+    path: "starting-soon",
+    element: <StartingSoon />,
+  },
+  {
+    path: "subcounter",
+    element: <SubCounter />,
+  },
+  {
+    path: "brb",
+    element: <BRB />,
   },
 ]);
