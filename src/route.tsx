@@ -25,10 +25,6 @@ export const router = createHashRouter([
     element: <StartingSoon />,
   },
   {
-    path: "subcounter",
-    element: <SubCounter />,
-  },
-  {
     path: "brb",
     element: <BRB />,
   },
