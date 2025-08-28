@@ -5,6 +5,8 @@ import Tape from "./pages/Tape";
 import StartingSoon from "./pages/StartingSoon";
 import BRB from "./pages/BRB";
 import App from "./App";
+import Welcome from "./pages/Welcome";
+import Ending from "./pages/Ending";
 
 export const router = createHashRouter([
   {
@@ -26,5 +28,13 @@ export const router = createHashRouter([
   {
     path: "brb",
     element: <BRB />,
+  },
+  {
+    path: "welcome",
+    element: <Welcome />,
+  },
+  {
+    path: "ending",
+    element: <Ending />,
   },
 ]);

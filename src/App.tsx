@@ -17,6 +17,12 @@ function App() {
       <Link className="fp-link" to="/brb">
         brb
       </Link>
+      <Link className="fp-link" to="/welcome">
+        welcome
+      </Link>
+      <Link className="fp-link" to="/ending">
+        ending
+      </Link>
     </>
   );
 }
