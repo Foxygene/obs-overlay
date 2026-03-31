@@ -7,6 +7,7 @@ import BRB from "./pages/BRB";
 import App from "./App";
 import Welcome from "./pages/Welcome";
 import Ending from "./pages/Ending";
+import Spinner from "./pages/Spinner";
 
 export const router = createHashRouter([
   {
@@ -16,6 +17,10 @@ export const router = createHashRouter([
   {
     path: "tape",
     element: <Tape />,
+  },
+  {
+    path: "spinner",
+    element: <Spinner />,
   },
   {
     path: "chat",
